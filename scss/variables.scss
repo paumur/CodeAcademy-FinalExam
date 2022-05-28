@@ -1,0 +1,257 @@
+// NAVBAR
+
+$nav-a-font: 18px;
+$nav-burgerIcon-font: 24px;
+$nav-a-font-w: 400px;
+
+// background colors
+
+$nav-background-color: #1c1c1c;
+
+// font colors
+
+$nav-a_hover-shadow-color: #41d395;
+$nav-a_hover-color: #000;
+$nav-a-color: #fff;
+$nav-burgerIcon-color: #fff;
+
+// ========================
+
+// SECTION 1
+
+// Background colors
+
+$section1-background: #1c1c1c;
+$section1-divider-background: #fff;
+$section1-left-button-border-background: #fff;
+$section1-right-card-title-background: #f5f5f5;
+$section1-right-card-main-background: #fff;
+$section1-right-card-main-input-radio-border-background: #41d395;
+$section1-right-card-bottom-button-background: #41d395;
+
+// Font colors
+
+$section1-left-font-color: #fff;
+$section1-right-card-title-h2: #333333;
+$section1-right-card-title-h2-span: #e27866;
+$section1-right-card-main-h3: #1c1c1c;
+$section1-right-card-main-input: #1c1c1c;
+$section1-right-card-main-input-border: #d8d8d8;
+$section1-right-card-main-input-radio-border: #41d395;
+$section1-right-card-main-radio-input-text: #000;
+$section1-right-card-bottom-button-text: #fff;
+
+// Font size
+
+$section1-left-font-w: 400;
+$section1-left-font-size-h2: 36px;
+$section1-left-font-size-p: 16px;
+$section1-right-card-title-h2-s: 20px;
+$section1-right-card-title-h2-w: 600;
+$section1-right-card-main-h3-w: 600;
+$section1-right-card-main-h3-s: 16px;
+$section1-right-card-main-input-s: 12px;
+$section1-right-card-main-radio-input-text-s: 9px;
+$section1-right-card-main-radio-input-text-w: 400;
+$section1-right-card-bottom-button-text-s: 18px;
+$section1-right-card-bottom-button-text-w: 600;
+
+// =============================================
+
+// SECTION2
+
+// Background colors
+
+$section2-general-background: #fff;
+
+// Font colors
+
+$section2-h2: #333;
+$section2-p: #86878b;
+$section2-i: #e27866;
+
+// Font size
+$section2-general-w: 600;
+$section2-general-s: 20px;
+$section2-p-s: 14px;
+$section2-p-w: 400;
+$section2-i-s: 28px;
+
+// ===================================================
+
+// SECTION 3
+
+// Background colors
+
+$section3-feature3-overlay-background: #e27866;
+
+// Font colors
+
+$section3-feature1-span: #c0c0c0;
+$section3-feature1-span-hover: #fff;
+$section3-feature1-span-selected: #fff;
+$section3-feature2-h2: #fff;
+$section3-feature2-p: #fff;
+$section3-feature3-overlay-h3: #fff;
+
+// Font size
+
+$section3-feature1-span-w: 600;
+$section3-feature1-span-s: 14px;
+$section3-feature2-h2-s: 36px;
+$section3-feature2-h2-w: 600;
+$section3-feature2-p-s: 14px;
+$section3-feature3-overlay-h3-w: 600;
+$section3-feature3-overlay-h3-s: 20px;
+
+// =============================================================
+
+// SECTION 4
+
+// Background colors
+
+$section4-background: #1c1c1c;
+$section4-right-orangeBreak-background: #e27866;
+$section4-right-icon-background: #e27866;
+
+// Font colors
+
+$section4-general: #fff;
+$section4-right-icon-border: #e27866;
+
+// Font size
+
+$section4-right-h2-s: 30px;
+$section4-right-h2-w: 600;
+$section4-right-p-s: 14px;
+$section4-right-icon-text-p-s: 14px;
+$section4-right-icon-text-p-w: 600;
+
+// =============================================================
+
+// SECTION 5
+
+// Background colors
+
+$section5-main-orangeBreak-background: #e27866;
+
+// Font colors
+
+$section5-main-h2: #212121;
+$section5-main-p: #86878b;
+$section5-card-border: #e27866;
+$section5-card: #e27866;
+
+// Font size
+
+$section5-main-h2-w: 600;
+$section5-main-h2-s: 36px;
+$section5-main-p-s: 14px;
+$section5-card-h2-s: 20px;
+$section5-card-h2-w: 400;
+
+// =============================================================
+
+// SECTION 6
+
+// Background colors
+
+$section6-background: #6696e2;
+$section6-main-greenBreak-background: #41d395;
+$section6-tab-header-background: #333333;
+$section6-tab-header-greenLine-background: #41d395;
+$section6-tab-main-background: #fff;
+
+// Font colors
+$section6-main-h2: #fff;
+$section6-tab-header-h3: #fff;
+$section6-tab-header-h2: #fff;
+$section6-tab-header-p: #86878b;
+$section6-tab-header-greenLine-text: #fff;
+$section6-tab-main: #86878b;
+// Font size
+$section6-main-h2-w: 600;
+$section6-main-h2-s: 36px;
+$section6-tab-header-h3-s: 20px;
+$section6-tab-header-h3-w: 300;
+$section6-tab-header-h2-s: 70px;
+$section6-tab-header-h2-w: 300;
+$section6-tab-header-span-s: 25px;
+$section6-tab-main-s: 14px;
+
+// Swiper
+
+// Color
+
+$section6-swiper-buttons: #41d395;
+$section6-swiper-buttons-hover: #1ea96f;
+$section6-swiper-bullets: #41d395;
+// =============================================================
+
+// SECTION 7
+
+// Background colors
+$section7-background: #fff;
+$section7-main-blueBreak-background: #6696e2;
+$section7-comment-background: #6696e2;
+$section7-comment-arrow-background: #6696e2;
+// Font colors
+$section7-main-h2: #1c1c1c;
+$section7-comment-p: #fff;
+$section7-commenter-h2: #333333;
+$section7-commenter-p: #86878b;
+// Font size
+
+$section7-main-h2-w: 600;
+$section7-main-h2-s: 36px;
+$section7-comment-p-s: 14px;
+$section7-comment-p-w: 200;
+$section7-commenter-h2-s: 20px;
+$section7-commenter-h2-w: 400;
+$section7-commenter-p-s: 14px;
+
+// Swiper
+
+// Color
+$section7-swiper-bullets: #e27866;
+
+// =============================================================
+
+// SECTION 8
+
+// Background colors
+$section8-background: #e27866;
+$section8-card-background: #fff;
+$section8-radio-input-background: #41d395;
+$section8-button-background: #41d395;
+// Font colors
+
+$section8-general: #fff;
+$section8-input-text: #1c1c1c;
+$section8-input-text-border: #d8d8d8;
+$section8-radio-input-border: #41d395;
+$section8-radio-input: #000;
+
+// Font size
+$section8-main-h2-s: 36px;
+$section8-main-p-s: 14px;
+$section8-main-p-w: 300;
+$section8-input-text-s: 12px;
+$section8-radio-input-s: 9px;
+$section8-button-s: 15px;
+$section8-button-w: 600;
+$section8-radio-input-text-w: 400;
+
+// =============================================
+
+// SECTION 9
+
+// Background colors
+$section9-background: #1c1c1c;
+// Font colors
+$section9-icon: #e27866;
+$section9-h2: #fff;
+// Font size
+$section9-h2-w: 400;
+$section9-h2-s: 18px;
+// =============================================

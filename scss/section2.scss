@@ -1,0 +1,40 @@
+.section2 {
+  height: 105px;
+  font-weight: $section2-general-w;
+  font-size: $section2-general-s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: $section2-general-background;
+  margin: 0% 5%;
+
+  .section2-icons {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-weight: $section2-general-w;
+    font-size: $section2-general-s;
+    color: $section2-h2;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: $section2-p-s;
+    font-weight: $section2-p-w;
+    color: $section2-p;
+    width: 394px;
+  }
+
+  i {
+    color: $section2-i;
+    font-size: $section2-i-s;
+    opacity: 0.65;
+    margin: 0 10px;
+  }
+
+  i:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}

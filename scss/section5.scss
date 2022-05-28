@@ -1,0 +1,59 @@
+.section5 {
+  height: 592px;
+  text-align: center;
+  h2 {
+    margin-top: 98px;
+    margin-bottom: 21px;
+    color: $section5-main-h2;
+    font-weight: $section5-main-h2-w;
+    font-size: $section5-main-h2-s;
+  }
+
+  .orange-break {
+    width: 64px;
+    height: 2px;
+    background-color: $section5-main-orangeBreak-background;
+    margin: auto;
+  }
+
+  p {
+    font-size: $section5-main-p-s;
+    color: $section5-main-p;
+    margin-top: 26px;
+  }
+
+  .section5-flex {
+    margin-top: 150px;
+    @include flex-centered;
+    gap: 100px;
+
+    div {
+      width: 238px;
+      height: 194px;
+      h2 {
+        font-size: $section5-card-h2-s;
+        font-weight: $section5-card-h2-w;
+        margin-top: 30px;
+        width: 238px;
+        height: 24px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        width: 238px;
+        height: 38px;
+      }
+
+      i {
+        font-size: 35px;
+        padding: 20px;
+        color: $section5-card;
+        border: solid 2px $section5-card-border;
+        border-radius: 50%;
+      }
+      .icon-adjust {
+        padding: 20px 25px;
+      }
+    }
+  }
+}

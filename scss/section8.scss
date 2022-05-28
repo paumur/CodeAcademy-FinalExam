@@ -1,0 +1,83 @@
+.section8 {
+  height: 573px;
+  margin-top: 250px;
+  background-color: $section8-background;
+  color: $section8-general;
+  text-align: center;
+  h2 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: $section8-main-h2-s;
+  }
+  p {
+    font-size: $section8-main-p-s;
+    font-weight: $section8-main-p-w;
+  }
+
+  .section8-card-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .section8-card {
+      position: relative;
+      width: 390px;
+      height: 314px;
+      background-color: $section8-card-background;
+      align-items: center;
+      border-radius: 5px;
+      padding-top: 30px;
+
+      .text-input {
+        font-size: $section8-input-text-s;
+        color: $section8-input-text;
+        margin-bottom: 20px;
+        width: 70%;
+        border: none;
+        line-height: 24px;
+        outline: none;
+        padding-left: 10px;
+        border-bottom: 1px solid $section8-input-text-border;
+      }
+
+      input[type="radio"] {
+        position: relative;
+        margin-right: 30px;
+        right: 30px;
+        appearance: none;
+        width: 13px;
+        height: 13px;
+        border: 1px solid $section8-radio-input-border;
+        border-radius: 50%;
+        background-clip: content-box;
+        padding: 3px;
+        margin-top: -1px;
+        vertical-align: middle;
+      }
+
+      input[type="radio"]:checked {
+        background-color: $section8-radio-input-background;
+      }
+
+      .radio-input-text {
+        position: relative;
+        right: 55px;
+        font-size: $section8-radio-input-s;
+        color: $section8-radio-input;
+        font-weight: $section8-radio-input-text-w;
+      }
+
+      button {
+        border: none;
+        color: #ffffff;
+        font-weight: $section8-button-w;
+        font-size: $section8-button-s;
+        display: block;
+        width: 40%;
+        height: 48px;
+        border-radius: 5px;
+        background-color: $section8-button-background;
+        margin: 5% 30%;
+      }
+    }
+  }
+}

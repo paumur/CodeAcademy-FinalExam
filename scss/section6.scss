@@ -1,0 +1,128 @@
+.section6 {
+  height: 883px;
+  background-color: $section6-background;
+  text-align: center;
+  h2 {
+    padding-top: 97px;
+    margin-bottom: 21px;
+    color: $section6-main-h2;
+    font-weight: $section6-main-h2-w;
+    font-size: $section6-main-h2-s;
+  }
+
+  .green-break {
+    width: 64px;
+    height: 2px;
+    background-color: $section6-main-greenBreak-background;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  // --------------------------------------------------SWIPER1
+
+  .plan {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+    margin-bottom: 50px;
+    .tab-header {
+      text-align: center;
+      background-color: $section6-tab-header-background;
+      border-radius: 10px 10px 0px 0px;
+      width: 280px;
+
+      h3 {
+        padding-top: 10px;
+        color: $section6-tab-header-h3;
+        font-size: $section6-tab-header-h3-s;
+        font-weight: $section6-tab-header-h3-w;
+      }
+      h2 {
+        font-weight: $section6-tab-header-h2-w;
+        color: $section6-tab-header-h2;
+        font-size: $section6-tab-header-h2-s;
+        margin-top: 50px;
+        padding-top: 0px;
+        span {
+          font-size: $section6-tab-header-span-s;
+        }
+      }
+      p {
+        color: $section6-tab-header-p;
+      }
+    }
+    .green-line {
+      @include flex-centered;
+      width: 280px;
+      background-color: $section6-tab-header-greenLine-background;
+      min-height: 6px;
+      div {
+        height: 30px;
+        .green-line_text {
+          color: $section6-tab-header-greenLine-text;
+        }
+      }
+    }
+    ul {
+      background-color: $section6-tab-main-background;
+      border-radius: 0px 0px 10px 10px;
+      color: $section6-tab-main;
+      font-size: $section6-tab-main-s;
+      width: 280px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 10px;
+      }
+    }
+  }
+
+  /* Swiper css */
+  .swiper {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: $section6-swiper-buttons;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    text-shadow: 0 0 5px $section6-swiper-buttons-hover;
+  }
+
+  .swiper-pagination-bullet {
+    background: $section6-swiper-bullets;
+    width: 15px;
+    height: 15px;
+  }
+
+  @media (min-width: 1000px) {
+    .swiper {
+      .swiper-pagination {
+        display: none;
+      }
+      max-width: 1200px;
+    }
+
+    .plan {
+      width: 250px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+}

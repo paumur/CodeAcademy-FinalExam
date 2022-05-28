@@ -1,0 +1,170 @@
+.section1 {
+  .intro-wrap {
+    position: relative;
+    background: $section1-background 0% 0% no-repeat padding-box;
+  }
+
+  .intro-wrap:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/app/img/photo-1480714378408-67cf0d13bc1b@2x.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 40%;
+    opacity: 0.35;
+  }
+
+  .intro-content {
+    padding-top: 75px;
+    position: relative;
+    height: 639px;
+    display: flex;
+    justify-content: space-around;
+
+    .section1-left {
+      img {
+        width: 247px;
+        height: 108px;
+      }
+      h2 {
+        margin-top: 22px;
+        margin-bottom: 0px;
+        width: 426px;
+        height: 87px;
+        line-height: 43.2px;
+        color: $section1-left-font-color;
+        text-align: left;
+        font-weight: $section1-left-font-w;
+        font-size: $section1-left-font-size-h2;
+      }
+      .divider {
+        margin-top: 21px;
+        width: 80px;
+        height: 3px;
+        background-color: $section1-divider-background;
+      }
+      p {
+        margin-top: 24px;
+        width: 651px;
+        height: 65px;
+        text-align: left;
+        font-weight: $section1-left-font-w;
+        font-size: $section1-left-font-size-p;
+        letter-spacing: 0px;
+        color: $section1-left-font-color;
+        opacity: 0.8;
+      }
+      button {
+        margin-top: 43px;
+        width: 135px;
+        height: 42px;
+        border: 2px solid $section1-left-button-border-background;
+        background: transparent;
+        color: $section1-left-font-color;
+      }
+    }
+
+    .section1-right {
+      width: 360px;
+      height: 311px;
+      div:nth-of-type(1) {
+        width: 100%;
+        background: $section1-right-card-title-background 0% 0% no-repeat
+          padding-box;
+        border-radius: 5px 5px 0px 0px;
+        h2 {
+          padding: 17px 0px 16px;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-align: center;
+          width: 100%;
+          height: 100%;
+          font-weight: $section1-right-card-title-h2-w;
+          font-size: $section1-right-card-title-h2-s;
+          color: $section1-right-card-title-h2;
+        }
+        span {
+          color: $section1-right-card-title-h2-span;
+        }
+      }
+      div:nth-of-type(2) {
+        background-color: $section1-right-card-main-background;
+        text-align: center;
+
+        h3 {
+          margin-bottom: 10px;
+          margin-left: 30px;
+          padding-top: 10px;
+          text-align: left;
+          font-weight: $section1-right-card-main-h3-w;
+          font-size: $section1-right-card-main-h3-s;
+          letter-spacing: 0px;
+          color: $section1-right-card-main-h3;
+        }
+
+        .text-input {
+          font-size: $section1-right-card-main-input-s;
+          color: $section1-right-card-main-input;
+          margin-bottom: 20px;
+          border: none;
+          line-height: 24px;
+          width: 80%;
+          outline: none;
+          padding-left: 10px;
+          border-bottom: 1px solid $section1-right-card-main-input-border;
+        }
+
+        input[type="radio"] {
+          position: relative;
+          margin-right: 30px;
+          right: 63px;
+          appearance: none;
+          width: 13px;
+          height: 13px;
+          border: 1px solid $section1-right-card-main-input-radio-border;
+          border-radius: 50%;
+          background-clip: content-box;
+          padding: 3px;
+          margin-top: -1px;
+          vertical-align: middle;
+        }
+
+        input[type="radio"]:checked {
+          background-color: $section1-right-card-main-input-radio-border-background;
+        }
+
+        .radio-input-text {
+          position: relative;
+          right: 85px;
+          font-size: $section1-right-card-main-radio-input-text-s;
+          font-weight: $section1-right-card-main-radio-input-text-w;
+          color: $section1-right-card-main-radio-input-text;
+        }
+      }
+      div:nth-of-type(3) {
+        button {
+          background: $section1-right-card-bottom-button-background 0% 0%
+            no-repeat padding-box;
+          border: none;
+          border-radius: 0px 0px 5px 5px;
+          padding-top: 16px;
+          padding-bottom: 17px;
+          width: 100%;
+          text-align: center;
+          font-weight: $section1-right-card-bottom-button-text-w;
+          font-size: $section1-right-card-bottom-button-text-s;
+          letter-spacing: 2px;
+          color: $section1-right-card-bottom-button-text;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

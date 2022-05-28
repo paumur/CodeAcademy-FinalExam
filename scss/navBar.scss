@@ -1,0 +1,102 @@
+.NavWrapper {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+
+  nav {
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: $nav-background-color;
+
+    .mobileNavStart {
+      transform: rotate(180deg);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .toggleButtonUp {
+      transform: rotate(90deg);
+      transition: all 0.3s ease-in-out;
+    }
+
+    button {
+      cursor: pointer;
+    }
+    a:hover {
+      color: $nav-a_hover-color;
+      box-shadow: inset 200px 0 0 0 $nav-a_hover-shadow-color;
+      transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+      cursor: pointer;
+    }
+
+    a {
+      color: $nav-a-color;
+      font-size: $nav-a-font;
+      font-weight: $nav-a-font-w;
+      line-height: 1.5;
+      text-decoration: none;
+      user-select: none;
+    }
+
+    i {
+      font-size: $nav-burgerIcon-font;
+      color: $nav-burgerIcon-color;
+      display: none;
+      transform: rotate(0deg);
+    }
+
+    img {
+      width: 119px;
+      height: 52px;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    div:nth-of-type(2) {
+      display: flex;
+      justify-content: space-between;
+      gap: 44px;
+    }
+  }
+
+  .mobile-nav {
+    height: 0px;
+    transition: all 0.5s ease-in-out;
+    a {
+      opacity: 0;
+    }
+  }
+  .toggleMobileNav {
+    @include flex-col-centered;
+    gap: 10px;
+    opacity: 1;
+    background-color: $nav-background-color;
+    height: 200px;
+    color: $nav-a-color;
+    transition: all 0.5s ease-in-out;
+
+    a:hover {
+      color: $nav-a_hover-color;
+      box-shadow: inset 200px 0 0 0 $nav-a_hover-shadow-color;
+      transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    a {
+      opacity: 1;
+      color: $nav-a-color;
+      font-size: $nav-a-font;
+      font-weight: $nav-a-font-w;
+      line-height: 1.5;
+      text-decoration: none;
+      user-select: none;
+      transition: opacity 3s;
+    }
+  }
+}

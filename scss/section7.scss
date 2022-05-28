@@ -1,0 +1,120 @@
+.section7 {
+  height: 450px;
+  background-color: $section7-background;
+  text-align: center;
+  h2 {
+    padding-top: 97px;
+    margin-bottom: 21px;
+    color: $section7-main-h2;
+    font-weight: $section7-main-h2-w;
+    font-size: $section7-main-h2-s;
+  }
+
+  .blue-break {
+    width: 64px;
+    height: 2px;
+    background-color: $section7-main-blueBreak-background;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  // SWIPER CONTENT ---------------------------------
+
+  .comments-wrapper {
+    .comment {
+      @include flex-centered;
+      width: 273px;
+      height: 147px;
+      background: $section7-comment-background;
+      border-radius: 10px;
+      .chatBox {
+        position: relative;
+        p {
+          width: 230px;
+          height: 107px;
+          text-align: left;
+          font-size: $section7-comment-p-s;
+          font-weight: $section7-comment-p-w;
+          color: $section7-comment-p;
+        }
+      }
+      .chatBox::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 115px;
+        width: 28px;
+        height: 28px;
+        transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+        background: $section7-comment-arrow-background;
+      }
+    }
+    .commenter {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+
+      .commenter-Name {
+        h2 {
+          color: $section7-commenter-h2;
+          font-size: $section7-commenter-h2-s;
+          font-weight: $section7-commenter-h2-w;
+          text-align: left;
+          width: 100px;
+          height: 24px;
+          padding: 0 !important;
+          margin-bottom: 0 !important;
+        }
+        p {
+          color: $section7-commenter-p;
+          width: 63px;
+          height: 18px;
+          font-size: $section7-commenter-p-s;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  // SWIPER 2 --------------------------------
+
+  .swiper2 {
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: $section7-swiper-bullets;
+    width: 15px;
+    height: 15px;
+  }
+}
