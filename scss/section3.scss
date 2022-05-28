@@ -17,7 +17,7 @@
           width: 100px;
           height: 100px;
           color: $section3-feature1-span;
-          background: url("/app/img/tab_2_button_u85_mouseover.svg");
+          background: url("./app/img/tab_2_button_u85_mouseover.svg");
           span {
             transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
             font-weight: $section3-feature1-span-w;
@@ -25,13 +25,13 @@
           }
         }
         .card-hover:hover {
-          background: url("/app/img/tab_1_button_u83_selected.svg");
+          background: url("./app/img/tab_1_button_u83_selected.svg");
           transition: all 0.3s ease-in-out 0s;
           color: $section3-feature1-span-hover;
           cursor: pointer;
         }
         .selected {
-          background: url("/app/img/tab_1_button_u83_selected.svg");
+          background: url("./app/img/tab_1_button_u83_selected.svg");
           color: $section3-feature1-span-selected;
           transition: all 0.5s ease-in-out 0s;
         }
@@ -253,7 +253,7 @@
     width: 100%;
     height: 100%;
     background: transparent
-      url("/app/img/christoffer-engstrom-503481-unsplash@2x.png") 0% 0%
+      url("./app/img/christoffer-engstrom-503481-unsplash@2x.png") 0% 0%
       no-repeat padding-box;
     -webkit-background-size: cover;
     -moz-background-size: cover;
